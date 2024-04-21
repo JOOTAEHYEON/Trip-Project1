@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: "nannum";
+  src: url("../font/NanumSquareRoundR.ttf");
+}
+
+
+@font-face {
+  font-family: "tway1";
+  src: url("../font/tway_air.ttf");
+}
+
+
+@font-face {
+  font-family: "tway2";
+  src: url("../font/tway_fly.ttf");
+}
+
+
+@font-face {
+  font-family: "tway3";
+  src: url("../font/tway_sky.ttf");
+}
+
+
+.nannum{
+	font-family: "nannum";
+}
+
+.tway1{
+	font-family: "tway1";
+}
+
+.tway2{
+	font-family: "tway2";
+}
+
+.tway3{
+	font-family: "tway3";
+}
+
+
+.test {
+	border: 5px solid red;
+}
+
+.test2 {
+	border: 5px solid black;
+}
+
+
+.display{
+	display: flex;
+	justify-content: center;
+}
+
+.displayco{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+	
+}
+
+.displaya{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.displayb{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.displaye{
+	display: flex;
+	justify-content: end;
+}
+
+
+.displays{
+	display: flex;
+	justify-content: start;
+}
+
+
+.displaysm {
+    display: flex;
+    justify-content: center; /* 가로 방향 가운데 정렬 */
+    align-items: center; /* 세로 방향 가운데 정렬 */
+}
+
+.displaycol{
+	display: flex;
+    flex-direction: column;
+    
+    justify-content:center;
+	
+}
+
+.displaypop {
+    display: flex;
+    flex-direction: column; /* 수직으로 배열 */
+    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: flex-start; /* 가로 방향 시작점에서 시작 */
+}
+
+
+
+body {
+	margin: 0px;
+	font-family: nannum, spotify-circular, Helvetica, Arial, sans-serif;
+	color: black;
+	min-height: 100vh;
+    position: relative;
+        }
+
+
+.top {
+	height: 70px;
+}
+
+.custom-navbar {
+	display: flex;
+	justify-content: space-around;
+	margin: 0px 30px 0px 10px;
+}
+
+.mg {
+	margin: 15px;
+}
+
+.mg-r {
+	margin: 13px 80px 4px 10px;
+}
+
+.mg-l {
+	margin: 15px 0px 8px 50px;
+}
+
+.b {
+	color: black;
+}
+
+.b:hover {
+	font-weight: bold;
+	cursor: pointer;
+}

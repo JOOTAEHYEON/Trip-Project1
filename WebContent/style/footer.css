@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+footer {
+    widht: 100%; /* 오타: width가 아니라 widht입니다. */
+    height: 310px;
+    background: black;
+}
+
+.container {
+    padding: 40px 40px;
+    height: 310px;
+}
+
+.footer-menu {
+	display: flex;
+	justify-content: space-around;	
+	height: 236px;
+}
+
+.first-box {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.second-box {
+	width: 40%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.menu-item {
+    padding: 3px 0px 10px 0px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.menu-item[type="submit"] {
+    /* 추가된 스타일 */
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.menu-item-1{
+	padding: 3px 0px 10px 0px;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	
+}
+
+.menu-item:hover {
+	color: #1ed760;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 10px;
+}
+
+.sub-title {
+	color: #919496;
+	font-weight: 900;
+	margin: 20px 0px;
+}
+
+.icon-box {
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	background-color: #222322;
+	margin-right: 15px;
+}
+
+.icon {
+	position: relative;
+	top: 15px;
+	left: 11px;
+}
+
+.icon : hover {
+	color: #1ed760;
+}
+
+.second-head {
+	display: flex;
+	color: #919496;
+	margin-right: 20px;
+	justify-content: flex-end;
+}
+
+
+
+.secon-last {
+	display: flex;
+}
+
+@media (max-width: 1290px) {
+  /* 원하는 화면 크기에 따른 스타일 지정 */
+  .footer-menu {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .first-box {
+    width: 100%;
+  }
+
+  .second-box {
+    width: 100%;
+    justify-content: center;
+  }
+}

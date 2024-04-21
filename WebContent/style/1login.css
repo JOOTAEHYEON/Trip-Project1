@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+
+.searchbox {
+  width: 30%;
+  margin : 12px 8px;
+}
+
+
+/*검색창*/
+.form-control {
+	height: 40px;
+	padding: 10px 50px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(- -bs-body-color);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: rgba(255, 255, 255, 0.5);
+	background-clip: padding-box;
+	border: var(- -bs-border-width) solid var(- -bs-border-color);
+	border-radius: 20px;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+  .contents {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* 추가: 화면이 작아질 경우 이미지를 다음 줄로 이동 */
+  }
+
+.Lcontainer2 {
+	margin: 15px 0px 170px 0px;
+}
+
+.Lcontainer{
+	margin-top:200px;
+}
+
+.mid {
+	display: flex;
+	justify-content: center;
+	font-size:70px;
+	font-weight:900;
+}
+
+
+
+.Ltext {
+	width: 400px;
+	height: 40px;
+	margin: 10px 0px 5px 0px;
+	border: 1px solid;
+	border-color: rgba(200, 200, 200, 0.7);
+}
+
+.Lobox {
+	width: 400px;
+	height: 50px;
+	background-color: #3CB371;
+	color: white;
+	border: none;
+	
+}
+
+.lnfo2{
+	width:100%;
+	margin:200px 0px;
+	height:300px;
+}
+
+.Loboxm{
+margin-top:45px
+}
+
+
+.Rcontainer {
+	margin: 130px 30px 80px 30px;
+
+
+
+}
+
+.Tre {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0px 0px 0px;
+	font-size:80px;
+	font-weight:900;
+
+}
+.Ribox {
+	width: 400px;
+	height: 50px;
+	background-color: #3CB371;
+	color: white;
+	border: none;
+}
+
+.infobox {
+
+		width: 590px;
+	height: 50px;
+	background-color: #3CB371;
+	color: white;
+	border: none;
+	
+}
+
+
+.infobox3 {
+
+	width: 295px;
+	height: 50px;
+	background-color: lightgray;
+	color: black;
+	border: none;
+	
+}
+
+.infobox2 {
+
+	width: 295px;
+	height: 50px;
+	background-color: #3CB371;
+	color: white;
+	border: none;
+	
+}
+
+.infoboxL{
+		display:relative;
+	right:100px;
+}
+
+.Rbox{
+	background-color: #3CB371;
+	color: white;
+	font-size:10px;
+}
+
+
+
+
+.Rtext {
+	width: 400px;
+	height: 40px;
+	margin: 10px 0px 5px 0px;
+	border: 1px solid;
+	border-color: rgba(200, 200, 200, 0.7);
+}
+
+.Rtext2{
+	width: 286.5px;
+	height: 40px;
+	margin: 10px 0px 5px 0px;
+	border: 1px solid;
+	border-color: rgba(200, 200, 200, 0.7);
+}
+
+
+.Rtext3{
+	height: 40px;
+	margin: 10px 0px 5px 0px;
+	border: none;
+	
+}
+
+
+.custom-listbox {
+    margin: 45px 20px 20px 20px;
+}
+
+.Ltr{
+	height:40px;
+}
+
+.listTitle{
+font-size:20px;
+font-weight:bold;	
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    height:60px;
+    text-align:center;
+}
+
+
+table {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0px 10px 0px;
+	padding:20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	border: none; /* 기본 테두리 제거 */ height : 2px; /* 두께 설정 */
+	background-color: black;
+	height: 2px; /* 두께 설정 */ background-color : black; /* 색상 설정 */
+	margin: 10px 0; /* 위아래 여백 설정 */
+}
+
+.td0 {
+	width: 190px;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.td1 {
+	width: 190px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+a:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.Ribox.Lobox:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+input::placeholder {
+	color: rgba(200, 200, 200, 0.7);
+	font-size: 12px;
+}
+
+
+.R{
+	position:relative;
+	right:500px;
+}
+
+.deltext{
+	margin-top:40px;
+	text-align:right;
+	width:590px;
+}
+
+@media (max-width: 768px) {
+  .Tre.tway1 {
+    font-size: 20px; /* Adjust the font size for smaller screens */
+  }
+  
+   .Rtext,
+    .input_pw,
+    .input_pw2,
+    .input_phone,
+    .input_email,
+    .Rtext2,
+    .infobox3,
+    .infobox2,
+    #sample6_postcode,
+    #sample6_address,
+    #sample6_detailAddress,
+    #sample6_extraAddress {
+      width: 70%;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .Tre.tway1 {
+    font-size: 18px; /* Adjust the font size for even smaller screens */
+  }
+}
+
+

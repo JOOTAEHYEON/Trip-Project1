@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+.lnfo2{
+	width:100%;
+	margin:200px 0px;
+	height:300px;
+}
+
+.Lobox {
+	width: 400px;
+	height: 50px;
+	background-color: #3CB371;
+	color: white;
+	border: none;
+	
+}
+
+.COcontainer {
+	margin: 10px 50px 80px 50px;
+	width:90%;
+}
+
+
+.COcontainer2 {
+	
+  margin: 136px 10px 80px 0px;
+  background-color: rgba(200, 200, 200, 0.8);
+  position: fixed;
+  top: 40%; /* 화면 중앙에서 시작 */
+  right: 80px; /* 오른쪽에 고정 */
+  transform: translateY(-50%); /* 화면 중앙으로 정렬 */
+  z-index: 999;
+
+}
+
+
+
+.innerContainer{
+	width:900px;
+}
+
+.TitleConfirm {
+	text-align:center;
+	margin: 80px 0px 50px 20px;
+	font-size:60px;
+	font-weight:400;
+
+}
+
+
+.TitleConfirm2{
+	text-align:left;
+	margin: 40px 50px 20px 50px;
+	font-size:40px;
+	font-weight:700;
+
+}
+
+.Cobox{
+	margin: 10px 0px 50px 0px;
+}
+
+
+.imgbox{
+	width:150px;
+	height:150px;
+	border-radius: 20px;
+}
+
+
+.SubTitleConfirm {
+	text-align:left;
+	font-size:30px;
+	font-weight:500;
+}
+
+
+.SubTitleConfirm2{
+	text-align:left;
+	font-size:26px;
+	font-weight:600;
+	
+}
+
+
+.Rqbox{
+	width:800px;
+	height:250px;
+}
+
+.radiotext {
+    font-size: 20px; /* 텍스트 크기 설정 */
+}
+
+.radiotext input[type="radio"] {
+    width: 20px; /* 라디오 버튼 가로 크기 설정 */
+    height: 20px; /* 라디오 버튼 세로 크기 설정 */
+}
+
+.paybox{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+width:90%;
+border:1px solid gray;	
+border-radius:20px;
+padding:10px;
+margin:10px 50px 40px 50px;
+}
+	
+
+
+
+.paybtn{
+	margin:25px 0px 20px 0px;
+	font-size:30px;
+	width:200px;
+	height: 80px;
+	background-color: #3CB371;
+	border-radius:20px;
+	color: white;
+	border: none;
+}
+
+
+.paybtn:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
+.gTitle{
+	margin-left:40px;
+	font-size:20px;
+	font-weight:500;
+	
+}
+
+.gTitle2{
+	
+	font-size:20px;
+	color:#008000;
+	font-weight:800;
+	
+}
+
+
+.side{
+	position: fixed;
+    top: 38%; /* 화면 중앙에서 시작 */
+    right: 10; /* 오른쪽에 고정 */
+    transform: translateY(-50%); /* 화면 중앙으로 정렬 */
+    background-color: #ffffff;
+    padding: 20px;
+   
+    z-index: 999; 
+}
+
+
+
+
+.gContents{
+	margin: 5px 40px;
+	font-size:16px;
+}
+
+
+.membox {
+	width: 400px;
+	height: 50px;
+	margin: 10px 0px 5px 0px;
+	border: 1px solid;
+	border-color: rgba(200, 200, 200, 0.7);
+}
+
+.membox2 {
+	width: 400px;
+	height: 50px;
+	margin: 10px 0px 5px 0px;
+	border: none;
+
+
+.tdw{
+	width:200px;
+	heigth:40px;
+}
+
+.hr {
+    border-bottom: 10px solid gray; /* 아래쪽 선을 추가하여 두껍게 만듭니다. */
+    display: block; /* 브라우저에서 브라우저의 기본 스타일을 무시하도록 합니다. */
+    content: ""; /* 내용이 없는 가상 요소를 생성합니다. */
+    margin: 10px 0;
+    width:50%; /* 위아래 여백을 조절합니다. */
+}
+
+
+
+.Tborer{
+	border:1px solid gray;
+	border-radius:6px;
+	margin:10px 50px 10px 50px;
+	width:85%;
+}
+
+.Treview{
+	text-decoration:none;
+	color:white;	
+}

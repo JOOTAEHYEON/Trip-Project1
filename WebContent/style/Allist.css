@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+
+h1{
+	width:40%;
+	margin-left:300px;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color:black;
+	
+}
+
+.cardsize{
+	width: 18rem; 
+	padding-left: 5px;
+	margin:0px 7px;
+}
+
+
+.Acontainer{
+
+padding:10px 10px;
+height:1000px;
+margin:120px 60px 0px 60px;
+
+}
+
+
+
+
+.subtitle{
+	text-decoration:none;
+	color:black;
+	
+	font-size:17px;
+}
+
+
+
+
+.pageNumber1{
+	background-color: transparent;
+	 border:none;
+	 color:gray;"
+	 margin:0px 8px;
+}
+
+.pageNumber2{
+	background-color: transparent;
+	 border:1px solid gray;
+	 color:gray;"
+	 margin:0px 10px;
+}
+
+
+.pageNumber1.current {
+    text-decoration: underline;
+    color: black;
+  }
+.pageNumber1:hover{
+  text-decoration:underline;	
+  color:black;
+}
+
+
+  @media screen and (max-width: 768px) {
+        .Acontainer {
+            height: 3000px; /* 높이를 조절하십시오. */
+        }
+    }

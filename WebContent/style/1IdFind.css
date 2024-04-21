@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+.Fcontainer {
+	margin: 200px 0px 170px 0px;
+	width:100%
+}
+
+
+.Fcontainer2 {
+	margin: 200px 0px 170px 0px;
+	width:100%
+}
+
+
+.Ftitle{
+	font-size:18px;
+	font-weight:bold;
+	
+}
+
+.Ftext {
+	width: 600px;
+	height: 50px;
+	margin: 10px 0px 5px 0px;
+	border: 1px solid;
+	border-color: rgba(200, 200, 200, 0.7);
+}
+
+
+.Ftext2{
+	width: 600px;
+	height: 50px;
+	margin: 10px 0px 5px 0px;
+	border: none;
+	border-color: rgba(200, 200, 200, 0.7);
+	font-size:25px;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color:  rgb(220, 220, 220);
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: black;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+.ftab{
+	width:300px;
+	height:50px;
+	
+}
+
+.Falign {
+	text-align: center;
+}
+
+
+
+.Fbox {
+	margin-top:30px;
+	width: 600px;
+	height: 50px;
+	background-color: #3CB371;
+	color: white;
+	border: none;
+	text-align:center; 
+	font-size:25px; 
+	font-weight:bold;
+	
+}
+
+Fbox:hover{
+	font-weight:bold;
+	cursor:pointer;
+}
+
+
+
+input::placeholder {
+	color: rgba(200, 200, 200, 0.7);
+	font-size: 12px;
+}
+
+
+@media (max-width: 700px) {
+    .Ftext, .Fbox, .nav-item {
+        width: 50%; /* 더 작은 화면에서는 너비를 100%에서 자동으로 조절 */
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-item {
+        width: auto; /* 더 작은 화면에서는 너비를 100%에서 자동으로 조절 */
+    }
+}
+

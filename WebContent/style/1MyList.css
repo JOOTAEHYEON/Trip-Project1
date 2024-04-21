@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+.REcontainer {
+	margin: 130px 30px 80px 30px;
+	
+}
+
+.REform{
+	margin:30px ; 
+	width:100%;
+}
+
+.textbox{
+	border:none;
+	text-align:center;
+}
+
+.Lobox {
+	width: 400px;
+	height: 50px;
+	background-color: #3CB371;
+	color: white;
+	border: none;
+	
+}
+
+.titleRE{
+	display: flex;
+	justify-content: center;
+	margin: 25px 0px;
+	font-size:70px;
+	font-weight:900;
+}
+
+
+.custom-checkbox {
+      transform: scale(0.7); /* 크기 조절 */
+      padding:20px;
+    }
+
+.textSelect{
+	font-size:18px;
+	margin:12px;
+}
+
+.btn-gc{
+	background-color:#0a3622;
+	color:white;
+	width:140px ;
+}
+
+.displayc{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;	
+}
+
+
+.listbox{
+width:400px; 
+margin:28px 20px 20px 20px;	
+
+}
+
+.listTitle{
+font-size:20px;
+font-weight:bold;
+	
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    height:60px;
+    text-align:center;
+}
+
+
+.listbox2{
+	width:100%;
+	margin:200px 0px;
+	height:300px;
+}
+
+.jbox {
+    width: 500px;
+    display: flex;
+   
+}
+
+.total{
+	border:none;
+	font-size:20px;
+	font-weight:bold;
+	margin-right:5px;
+}
+
+a{
+text-decoration:none;	
+color:black;
+}
+
+a:hover{
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.mypage{
+	font-size:20px;
+	font-weight:700;	
+}
+
+.Rphoto{
+	width:50px;
+	height:50px;
+	border-radius:3px;
+}
+
+
+.table1{
+  text-align:left;
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+.table1 tr {
+    border-bottom: 1px solid #ddd; /* 연한 회색 테두리 추가 */
+}
+
+
+
+.subbnt {
+    background-color: transparent; /* 배경 투명 설정 */
+    color: black; 
+    border: none;
+}
+
+.small form {
+    width: 100%;
+}
+
+
+@media (max-width: 900px) {
+    .REform,.small {
+        width: 70%; /* 뷰포트 너비의 100% */
+    }
+  
+
+    .table{
+        width: 50%; /* 뷰포트 너비의 100% */
+        font-size: 14px;
+    }
+
+    .REform table tr td ,.small table tr td {
+        font-size: 14px; /* 폰트 사이즈 조절 */
+    }
+
+
+.titleRE,.tway1{
+	  font-size: 30px;
+}
+   
+}
